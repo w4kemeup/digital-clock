@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+:root {
+    --fuente: 'Oswald', sans-serif;
+    --fondo: linear-gradient(to right, #141e30, #243b55);
+}
+
+.container {
+    font-family: var(--fuente);
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    font-size: 96px;
+}
+
+span {
+    color: #0d6efd;
+}
+
+body {
+    background: var(--fondo);
+}
